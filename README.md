@@ -8,11 +8,11 @@ There are 2 ways:
 
 ### 1.[translate-shell](https://github.com/soimort/translate-shell)
 
-install translate-shell:
+#### install translate-shell:
 
 `sudo apt install translate-shell`
 
-add to goldendict:
+#### add to Goldendict:
 
 `edit-dictionaries-sources-programs`
 
@@ -26,11 +26,11 @@ command line : `trans -e google -s auto -t zh-CN -show-original n -show-original
 
 ### 2.[google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
 
-install (python = 3.7+):
+#### install (python = 3.7+):
 
 `pip3 install google-translate-for-goldendict`
 
-add to goldendict:
+#### Add to Goldendict:
 
 `edit-dictionaries-sources-programs`
 
@@ -44,11 +44,11 @@ command line : `python -m googletranslate zh-CN %GDWORD%`
 
 ## Microsoft translate
 
-Follow the process of [Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
+#### Follow the process of [Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
 
-Then, copy the `microsoft_translate.py` to your file. Remember changing the key, endpoint and location to your own.
+#### Then, copy the `microsoft_translate.py` to your file. Remember changing the key, endpoint and location to your own.
 
-add to goldendict:
+#### Add to Goldendict:
 
 `edit-dictionaries-sources-programs`
 
@@ -62,11 +62,11 @@ command line : `python3 yourfilepath/microsoft_translate.py %GDWORD%`
 
 ## Baidu translate
 
-Follow the process of [baidu open translate platform](https://fanyi-api.baidu.com/api/trans/product/desktop), and create your own appid.
+#### Follow the process of [baidu open translate platform](https://fanyi-api.baidu.com/api/trans/product/desktop), and create your own appid.
 
-Then, copy the `baidu_translate.py` to your file. Remember changing the appid and key to your own.
+#### Then, copy the `baidu_translate.py` to your file. Remember changing the appid and key to your own.
 
-add to goldendict:
+#### Add to Goldendict:
 
 `edit-dictionaries-sources-programs`
 
