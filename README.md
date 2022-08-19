@@ -4,7 +4,7 @@ This is a method for goldendict using google, microsoft, and baidu translate onl
 
 ## 1 Google translate
 
-There are 2 ways:
+There are 2 methods:
 
 ### 1.1 [translate-shell](https://github.com/soimort/translate-shell)
 
