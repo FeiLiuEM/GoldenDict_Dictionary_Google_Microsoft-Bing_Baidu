@@ -1,8 +1,8 @@
 # Goldendict online translate
 
-This is a method for goldendict using google, microsoft, and baidu translate.
+This is a method for goldendict using google, microsoft, and baidu translate online.
 
-## 1 Google translator
+## 1 Google translate
 
 There are 2 ways:
 
@@ -42,7 +42,7 @@ name : `google translate`
 
 command line : `python -m googletranslate zh-CN %GDWORD%`
 
-## 2 Microsoft translate
+## 2 Microsoft/Bing translate
 
 #### Follow the process of [Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
 
@@ -58,7 +58,7 @@ type : `plain text`
 
 name : `microsoft translate`
 
-command line : `python3 yourfilepath/microsoft_translate.py %GDWORD%`
+command line : `python3 your_file_path/microsoft_translate.py %GDWORD%`
 
 ## 3 Baidu translate
 
@@ -76,6 +76,6 @@ type : `plain text`
 
 name : `baidu translate`
 
-command line : `python3 yourfilepath/baidu_translate.py %GDWORD%`
+command line : `python3 your_file_path/baidu_translate.py %GDWORD%`
 
 `baidu_translate.py` refers to the article of [e891377](https://blog.csdn.net/e891377/article/details/103399520). Thank for e891377 very much.
