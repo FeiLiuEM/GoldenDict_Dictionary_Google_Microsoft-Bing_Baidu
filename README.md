@@ -7,7 +7,7 @@ This is a method for goldendict using google, microsoft, and baidu translator.
 
 There are 2 ways:
 
-1.[translate-shell](https://github.com/soimort/translate-shell)
+### 1.[translate-shell](https://github.com/soimort/translate-shell)
 
 install translate-shell:
 
@@ -26,7 +26,7 @@ name : `google translate`
 command line : `trans -e google -s auto -t zh-CN -show-original n -show-original-phonetics n -show-translation y -no-ansi -show-translation-phonetics n -show-prompt-message n -show-languages y -show-original-dictionary n -show-dictionary n -show-alternatives n “%GDWORD%”`
 
 
-2.[google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
+### 2.[google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
 
 install (python = 3.7+):
 
