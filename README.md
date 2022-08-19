@@ -2,11 +2,11 @@
 
 This is a method for goldendict using google, microsoft, and baidu translate.
 
-## Google translator
+## 1 Google translator
 
 There are 2 ways:
 
-### 1.[translate-shell](https://github.com/soimort/translate-shell)
+### 1.1 [translate-shell](https://github.com/soimort/translate-shell)
 
 #### install translate-shell:
 
@@ -24,7 +24,7 @@ name : `google translate`
 
 command line : `trans -e google -s auto -t zh-CN -show-original n -show-original-phonetics n -show-translation y -no-ansi -show-translation-phonetics n -show-prompt-message n -show-languages y -show-original-dictionary n -show-dictionary n -show-alternatives n “%GDWORD%”`
 
-### 2.[google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
+### 1.2 [google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
 
 #### install (python = 3.7+):
 
@@ -42,7 +42,7 @@ name : `google translate`
 
 command line : `python -m googletranslate zh-CN %GDWORD%`
 
-## Microsoft translate
+## 2 Microsoft translate
 
 #### Follow the process of [Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
 
@@ -60,7 +60,7 @@ name : `microsoft translate`
 
 command line : `python3 yourfilepath/microsoft_translate.py %GDWORD%`
 
-## Baidu translate
+## 3 Baidu translate
 
 #### Follow the process of [baidu open translate platform](https://fanyi-api.baidu.com/api/trans/product/desktop), and create your own appid.
 
