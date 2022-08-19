@@ -62,7 +62,7 @@ command line : `python3 yourfilepath/microsoft_translate.py %GDWORD%`
 
 ## 3 Baidu translate
 
-#### Follow the process of [baidu open translate platform](https://fanyi-api.baidu.com/api/trans/product/desktop), and create your own appid.
+#### Follow the process of [Baidu Translate Platform](https://fanyi-api.baidu.com/api/trans/product/desktop), and create your own appid.
 
 #### Then, copy the `baidu_translate.py` to your file. Remember changing the appid and key to your own.
 
