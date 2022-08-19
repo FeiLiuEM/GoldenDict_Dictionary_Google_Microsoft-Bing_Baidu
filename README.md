@@ -1,6 +1,6 @@
 # Goldendict online translate
 
-This is a method for goldendict using google, microsoft, and baidu translator.
+This is a method for goldendict using google, microsoft, and baidu translate.
 
 
 ## Google translator
