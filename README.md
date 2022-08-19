@@ -2,7 +2,6 @@
 
 This is a method for goldendict using google, microsoft, and baidu translate.
 
-
 ## Google translator
 
 There are 2 ways:
@@ -25,7 +24,6 @@ name : `google translate`
 
 command line : `trans -e google -s auto -t zh-CN -show-original n -show-original-phonetics n -show-translation y -no-ansi -show-translation-phonetics n -show-prompt-message n -show-languages y -show-original-dictionary n -show-dictionary n -show-alternatives n “%GDWORD%”`
 
-
 ### 2.[google-translate-for-goldendict](https://github.com/xinebf/google-translate-for-goldendict)
 
 install (python = 3.7+):
@@ -44,12 +42,11 @@ name : `google translate`
 
 command line : `python -m googletranslate zh-CN %GDWORD%`
 
-
 ## Microsoft translate
 
-Follow the process of [azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
+Follow the process of [Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp) to create your own translator resource.
 
-Then, copy the `microsoft_translate.py` to your file. Remember changing the key and endpoint to your own.
+Then, copy the `microsoft_translate.py` to your file. Remember changing the key, endpoint and location to your own.
 
 add to goldendict:
 
@@ -62,7 +59,6 @@ type : `plain text`
 name : `microsoft translate`
 
 command line : `python3 yourfilepath/microsoft_translate.py %GDWORD%`
-
 
 ## Baidu translate
 
