@@ -58,7 +58,7 @@
 
 ## 3 百度翻译
 
-#### 按照百度翻译开放平台[Baidu Translate Platform](https://fanyi-api.baidu.com/api/trans/product/desktop)的流程进行开发者注册，建立APP并获取appid及key。注册过程是免费的，不过每个月免费翻译额度是5万词，升级帐号后是100万词。
+#### 按照[百度翻译开放平台](https://fanyi-api.baidu.com/api/trans/product/desktop)的流程进行开发者注册，建立APP并获取appid及key。注册过程是免费的，不过每个月免费翻译额度是5万词，升级帐号后是100万词。
 
 #### 然后，将 `baidu_translate.py` 粘贴到你的文件夹中。记得将文件中的appid 和 key 都修改成刚才申请的。
 
