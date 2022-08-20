@@ -1,6 +1,6 @@
-# Goldendict online translate
+# GoldenDict Dictionary of online translators
 
-This is a method for goldendict using google, microsoft, and baidu translate online.
+This is a method for goldendict using Google, Microsoft/Bing, and Baidu translate online.
 
 ## 1 Google translate
 
