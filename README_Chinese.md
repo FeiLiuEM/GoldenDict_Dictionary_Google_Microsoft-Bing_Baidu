@@ -40,7 +40,7 @@
 
 ## 2 微软/必应翻译
 
-#### 首先按照[Azure doc](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstart-translator?tabs=csharp)上的描述建立你的翻译resource 。
+#### 首先按照[Azure doc](https://docs.microsoft.com/zh-cn/azure/cognitive-services/translator/quickstart-translator?tabs=csharp)上的描述建立你的翻译resource 。
 
 #### 然后，将 `microsoft_translate.py` 粘贴到你的文件夹中。 记得将文件中的key, endpoint 和 location 都改成你自己的。
 
