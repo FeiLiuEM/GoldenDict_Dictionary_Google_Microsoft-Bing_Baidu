@@ -73,5 +73,3 @@
 命令行: `python3 your_file_path/baidu_translate.py %GDWORD%`
 
 `baidu_translate.py` 参考了[e891377的文章](https://blog.csdn.net/e891377/article/details/103399520)。非常感谢e891377
-
-`baidu_translate.py` refers to the article of [e891377](https://blog.csdn.net/e891377/article/details/103399520). Thank for e891377 very much.
