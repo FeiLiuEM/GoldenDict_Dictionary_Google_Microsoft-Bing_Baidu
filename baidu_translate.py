@@ -10,7 +10,7 @@ import sys
 
 def content_baidu_translate(content):
     """
-    Official method of Baidu
+    Official method from Baidu
     """
     appid = 'yourappid'  # your appid here
     secretKey = 'yourkey'  # your key here
