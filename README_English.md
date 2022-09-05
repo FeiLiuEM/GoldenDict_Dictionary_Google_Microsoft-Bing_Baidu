@@ -2,7 +2,7 @@
 
 This is a method for goldendict using Google, Microsoft/Bing, and Baidu translate online.
 
-System：`debian 11 (bullseye)`. Software：`GoldenDict 1.5.0-RC2`.
+System: `debian 11 (bullseye)`. Software: `GoldenDict 1.5.0-RC2`.
 
 ## 1 Google translate
 
