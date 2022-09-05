@@ -3,6 +3,7 @@
 # GoldenDict添加网络翻译工具翻译  [[English version](README_English.md)]
 
 这个项目将谷歌翻译、微软/必应翻译和百度翻译添加到GoldenDict中。
+系统：`debian 11 (bullseye)`，软件版本：`GoldenDict 1.5.0-RC2`。
 
 ## 1 谷歌翻译
 
