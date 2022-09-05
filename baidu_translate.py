@@ -10,15 +10,15 @@ import sys
 
 def content_baidu_translate(content):
     """
-    百度翻译官方提示的方法
+    Official method of Baidu
     """
-    appid = 'yourappid'  # 填写你的appid
-    secretKey = 'yourkey'  # 填写你的密钥
+    appid = 'yourappid'  # your appid here
+    secretKey = 'yourkey'  # your key here
     httpClient = None
     myurl = '/api/trans/vip/translate'
     q = content
-    fromLang = 'en' # 源语言
-    toLang = 'zh'   # 翻译后的语言
+    fromLang = 'en' # The language you want to translate from.
+    toLang = 'zh'   # The language you want to translate to.
     salt = random.randint(32768, 65536)
     sign = appid + q + str(salt) + secretKey
     sign = hashlib.md5(sign.encode()).hexdigest()
@@ -31,10 +31,10 @@ def content_baidu_translate(content):
         httpClient.request('GET', myurl)
         # response是HTTPResponse对象
         response = httpClient.getresponse()
-        jsonResponse = response.read().decode("utf-8")# 获得返回的结果，结果为json格式
-        js = json.loads(jsonResponse)  # 将json格式的结果转换字典结构
+        jsonResponse = response.read().decode("utf-8")# get the result with the type of json
+        js = json.loads(jsonResponse)  # transfer json to dict
         #print(jsonResponse)
-        content_print_byformat(js) # 打印结果
+        content_print_byformat(js) # print the result
     except Exception as e:
         print(e)
     finally:
@@ -47,10 +47,10 @@ def content_print_byformat(js):
     控制打印格式
     参考资料 http://api.fanyi.baidu.com/doc/21
     """
-    #srcStr = str(js["trans_result"][0]["src"])  # 取得翻译前的文本
-    dstStr = str(js["trans_result"][0]["dst"])  # 取得翻译后的文本结果
+    #srcStr = str(js["trans_result"][0]["src"])  # the context you want to translate
+    dstStr = str(js["trans_result"][0]["dst"])  # result
     
-    # 反过滤规则001
+    # Text adjustment 
     #if("\\r\\n" in srcStr):
     #    srcStr = srcStr.replace("\\r\\n","\n")
     if("\\r\\n" in dstStr):
@@ -66,12 +66,12 @@ def content_filter_word(content):
     过滤内容
     """
     bb= content
-    # 过滤规则001
+    # Text adjustment 1文本格式调整
     # 不知道是自己的原因还是百度翻译有点坑
     if("\n" in bb):
         bb = bb.replace("\n", "\\r\\n")
 
-    # 过滤规则002
+    # Text adjustment 2
     tup1 = ('来源：力扣（LeetCode）',
             '链接：https://leetcode-cn.com/problems/',
             '著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。')
@@ -85,8 +85,8 @@ def content_filter_word(content):
 
 def content_filter_len(content):
     """
-    只翻译短语或者长句，不翻译单词
-    单词查询通过朗文5++ LDOCE5查询
+    Translate sentences only
+    
     """
     if(len(content.split())>=2):
         #print('content大于等于2')
@@ -99,7 +99,7 @@ def content_filter_len(content):
 
 def baidu_translate_goldendict(content):
     """
-    主方法
+    主方法main
     """
     content_filter_len(content)
     pass
