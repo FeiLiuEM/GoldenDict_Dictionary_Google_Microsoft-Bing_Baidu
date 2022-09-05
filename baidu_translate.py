@@ -44,8 +44,8 @@ def content_baidu_translate(content):
 
 def content_print_byformat(js):
     """
-    控制打印格式
-    参考资料 http://api.fanyi.baidu.com/doc/21
+    set print format
+    reference http://api.fanyi.baidu.com/doc/21
     """
     #srcStr = str(js["trans_result"][0]["src"])  # the context you want to translate
     dstStr = str(js["trans_result"][0]["dst"])  # result
@@ -66,7 +66,7 @@ def content_filter_word(content):
     过滤内容
     """
     bb= content
-    # Text adjustment 1文本格式调整
+    # Text adjustment 1
     # 不知道是自己的原因还是百度翻译有点坑
     if("\n" in bb):
         bb = bb.replace("\n", "\\r\\n")
@@ -86,7 +86,6 @@ def content_filter_word(content):
 def content_filter_len(content):
     """
     Translate sentences only
-    
     """
     if(len(content.split())>=2):
         #print('content大于等于2')
