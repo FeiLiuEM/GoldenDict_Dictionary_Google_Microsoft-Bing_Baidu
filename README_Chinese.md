@@ -44,7 +44,7 @@
 
 #### 首先按照[Azure doc](https://docs.microsoft.com/zh-cn/azure/cognitive-services/translator/quickstart-translator?tabs=csharp)上的描述建立你的翻译resource 。
 
-#### 然后，将 `microsoft_translate.py` 粘贴到你的文件夹中。 记得将文件中的`key`、`endpoint`和`location`都改成你自己的。这些数据在你的[Azure服务](https://portal.azure.com/#home)的翻译工具-左侧工具栏-资源管理-密钥和终结点中可以找到。
+#### 然后，将 `microsoft_translate.py` 粘贴到你的文件夹中。 记得将文件中的`key`、`endpoint`和`location`都改成你自己的。这些数据在你的[Azure服务](https://portal.azure.com/#home)的`翻译工具-左侧工具栏-资源管理-密钥和终结点`中可以找到。
 
 #### 添加到Goldendict:
 
@@ -60,7 +60,7 @@
 
 #### 按照[百度翻译开放平台](https://fanyi-api.baidu.com/api/trans/product/desktop)的流程进行开发者注册，建立APP并获取appid及key。
 
-#### 然后，将 `baidu_translate.py` 粘贴到你的文件夹中。记得将文件中的appid 和 key 都修改成刚才申请的。
+#### 然后，将 `baidu_translate.py` 粘贴到你的文件夹中。记得将文件中的`appid`和`key`都修改成刚才申请的。
 
 #### 添加到Goldendict:
 
