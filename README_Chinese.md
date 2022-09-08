@@ -66,7 +66,7 @@
 
 `编辑——词典来源——程序——添加`
 
-类型 : `plain text`
+类型 : `纯文本`
 
 名称 : `baidu translate`
 
