@@ -46,7 +46,7 @@
 
 #### 首先按照[Azure doc](https://docs.microsoft.com/zh-cn/azure/cognitive-services/translator/quickstart-translator?tabs=csharp)上的描述建立你的翻译resource ，注册过程可能需要visa卡，不会扣费，每个月免费翻译额度是200万词。
 
-#### 然后，将 `microsoft_translate.py` 粘贴到你的文件夹中。 记得将文件中的key, endpoint 和 location 都改成你自己的。这些数据在你的[Azure服务](https://portal.azure.com/#home)的翻译工具-左侧工具栏-资源管理-密钥和终结点中可以找到。
+#### 然后，将 `microsoft_translate.py` 粘贴到你的文件夹中。 记得将文件中的`key`、`endpoint` 和`location` 都改成你自己的。这些数据在你的[Azure服务](https://portal.azure.com/#home)的翻译工具-左侧工具栏-资源管理-密钥和终结点中可以找到。
 
 #### 添加到Goldendict:
 
