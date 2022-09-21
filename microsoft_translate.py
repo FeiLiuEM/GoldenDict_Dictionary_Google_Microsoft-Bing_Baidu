@@ -5,7 +5,7 @@ import requests, uuid, json
 
 
 
-def content_baidu_translate(content):
+def content_microsoft_translate(content):
     """
     Official method from Microsoft
     """
@@ -50,7 +50,6 @@ def content_baidu_translate(content):
 def content_print_byformat(js):
     """
     set print format
-    reference http://api.fanyi.baidu.com/doc/21
     """
     #srcStr = str(js["trans_result"][0]["src"])  # the context you want to translate
     dstStr = js  
@@ -84,7 +83,7 @@ def content_filter_word(content):
         cc = bb.split(tup1[0])
         bb = cc[0]
         pass
-    content_baidu_translate(bb)
+    content_microsoft_translate(bb)
     pass
 
 
